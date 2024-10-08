@@ -1,0 +1,179 @@
+#background{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-position: center;
+    margin: 0px;
+}
+
+p{
+    color: white;
+    margin-top: 0;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar_line{
+    background-color: white;
+    width: 93%;
+    height: 2px;
+    bottom: 88%;
+    display: flex;
+    justify-content: center;
+    border: white;
+    margin: 0;
+    position: fixed;
+    left: 3.5%;
+}
+
+.vertical_right_line{
+    width: 2px;              
+    height: 100vh;               
+    background-color: white; 
+    margin: 0 auto; 
+    position: fixed;
+    right: 100px;
+    top: 30px;
+    display: none;
+}
+
+.vertical_left_line{
+    width: 2px;              
+    height: 100vh;               
+    background-color: white; 
+    margin: 0 auto; 
+    position: fixed;
+    left: 100px;
+    top: 30px;
+    display: none;
+}
+
+.description_box{
+    width: 625px;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    left: 50%;    
+    top: 12%;
+    padding: 30px;
+    flex-direction: column;
+    align-items: right;
+    opacity: 75%;
+}
+
+.description_box a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.photo_grid{
+    width: 600px; 
+    height: 650px;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 120px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photo_grid img{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#photo_grid_migdalo{
+    width: 600px; 
+    height: 650px;
+    display: flex;
+    margin-left: 80px;
+    margin-top:120px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#photo_grid_migdalo img{
+    display: flex;
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#photo_grid_migdalo video{
+    display: flex;
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.h2_projects{
+    margin: 0;
+    color: white;
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.h3_projects{
+    margin-top: 0;
+    color: white;
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.year{
+    text-align: right;
+    font-family:  "mr-eaves-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.img_fit img{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#arrow_back img{
+    max-width: 2%;
+    height: auto;
+    position: fixed;
+    top: 5%;
+    left: 40px;
+    display: flex;
+}
+
+#link_composition{
+    text-align: right;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.lists{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    margin-top: 0;
+    margin-left: 15px;
+    list-style: disc;
+    font-size: 14px;
+}
+
+.programms_used{
+    margin-bottom: 0;
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 25px;
+}
