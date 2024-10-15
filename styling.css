@@ -4,13 +4,14 @@ h1{
     font-size: 60px;
     margin-top: 0;
     margin-bottom: 60px;
-    font-weight: lighter;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "amandine", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 h2{
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 0;
     margin-bottom: 5px;
     font-weight: lighter;
@@ -22,6 +23,24 @@ p{
     margin-bottom: 10px;
 }
 
+.title_about_me{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: "amandine", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 5vw;
+}
+
+.title_about_me span:after{
+  content: ':)'
+}
+.title_about_me:hover span:after {
+  content: ';)';
+}
+
 .bold{
     font-weight: bold;
 }
@@ -31,19 +50,25 @@ p{
     font-family: "amandine", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 12vw;
+    font-size: 11vw;
     display: inline;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-block-end: 10px;
-    margin-block-start: 150px;
+    margin-block-start: 150px;  
+    line-height: 0.7;  
+    margin-top: 200px;
 }
 
-#hello:hover{
-    font-family: "amandine", sans-serif;
-    font-weight: 700;
-    font-style: normal;     
+#hello span {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  transform-origin: bottom; /* Keeps the bottom of the letter in place */
+  position: relative;
+}
+#hello span:hover {
+  transform: scaleY(0.2); /* Shrinks the letter vertically */
 }
 
 .align_center{
@@ -59,17 +84,20 @@ p{
 }
 
 .navbar_links{
-    color:white;
+    backdrop-filter: blur(10px);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     position: fixed;
-    top: 50px;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     z-index: 1000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    top: 0%;
 }
 
 .navbar_links a{
@@ -82,7 +110,18 @@ p{
     color: #65595a;
 }
 
-#contacts_button{
+.projectcard_title{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 0;
+  font-family: "mr-eaves-modern", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.scroll{
     scroll-behavior: smooth;
 }
 
@@ -99,19 +138,19 @@ p{
 .social_media{
     position: fixed;
     bottom: 5%;
-    right: 40px;
+    right: 30px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     align-items: center;
 }
 
-.social_media img{
+.social_media svg{
     color: white;
-    height: 40px;
+    height: 30px;
 }
 
-.social_media img:hover{
+.social_media svg:hover{
     color: #65595a;
 }
 
@@ -120,13 +159,21 @@ p{
     justify-content:space-around;
 }
 
+#about_me{
+    margin-top: 100px;
+    height: 60px;
+    width: 100vw;
+}
+
 #contacts{
     background-color: #65595a;
-    margin-top: 260px;
     padding: 20px;
     font-size: 12px;
     bottom: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "amandine", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    height: 275px;
 }
 
 #contacts a{
@@ -136,5 +183,11 @@ p{
 
 #email_phone{
     text-decoration: none;
-    margin-bottom: 50px;
+    font-size: 15px;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+

@@ -6,6 +6,28 @@
     margin: 0px;
 }
 
+#background_GT{
+    background-color: #C18B89;
+}
+
+h1{
+        margin-top: 50px;
+        margin-bottom: 0px;
+        text-align: center;
+        font-family: "amandine", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: white;
+        font-size: 5vw;
+    }
+
+h3{
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 p{
     color: white;
     margin-top: 0;
@@ -15,11 +37,28 @@ p{
     font-family: Helvetica, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+ul{
+    color: white;
+    margin-top: 0;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+
+}
+
 .navbar_line{
     background-color: white;
     width: 93%;
     height: 2px;
-    bottom: 88%;
+    bottom: 90%;
     display: flex;
     justify-content: center;
     border: white;
@@ -56,7 +95,7 @@ p{
     display: flex;
     position: fixed;
     left: 50%;    
-    top: 12%;
+    top: 8%;
     padding: 30px;
     flex-direction: column;
     align-items: right;
@@ -74,7 +113,7 @@ p{
     height: 650px;
     display: flex;
     margin-left: 80px;
-    margin-top: 120px;
+    margin-top: 105px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -149,14 +188,23 @@ p{
     max-width: 2%;
     height: auto;
     position: fixed;
+    top: 15%;
+    left: 55px;
+    display: flex;
+}
+
+#arrow_back_self img{
+    max-width: 2%;
+    height: auto;
+    position: fixed;
     top: 5%;
-    left: 40px;
+    left: 55px;
     display: flex;
 }
 
 #link_composition{
-    text-align: right;
-    margin-top: 50px;
+    text-align: left;
+    margin-top: 20px;
     font-weight: bold;
     font-size: 12px;
 }
@@ -176,4 +224,63 @@ p{
     font-weight: 300;
     font-style: normal; 
     font-size: 25px;
+}
+
+.previous_button{
+    background: 0 0;
+    cursor: pointer;
+    position: fixed;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    bottom: 5%;
+    height: 30px;
+    width: 125px;
+    right: 20%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+    transition: all .3s;
+    overflow: hidden;
+}
+
+.previous_button:hover{
+    background-color: white;
+}
+
+.next_button{
+    background: 0 0;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    bottom: 5%;
+    height: 30px;
+    width: 100px;
+    right: 8%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+    transition: all .3s;
+    overflow: hidden;
+}
+
+.next_button:hover{
+    background-color: white;
+}
+
+#buttons_text:hover{
+    color: #65595ac0;
+}
+
+#domino_rules{
+    display: flex;
+    align-items: right;
+    justify-content:center;
+    flex-direction: column;
+    width: 500px;
+    flex-wrap: wrap;
+    margin-left: 485px;
 }

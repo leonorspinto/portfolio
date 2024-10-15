@@ -1,4 +1,4 @@
-#ntmy{
+#about_me{
     margin-top: 100px;
     margin-bottom: 0px;
     text-align: center;
@@ -23,12 +23,14 @@ p{
 
 #contacts_about_me{
     background-color: #65595a;
-    height: 125px;
-    width: 97.5%;
+    width: 100vw;
     margin-top: 50px;
     padding: 20px;
     font-size: 12px;
     bottom: 0;
+    font-family: "amandine", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 #contacts_about_me a{
