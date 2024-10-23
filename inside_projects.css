@@ -1,3 +1,7 @@
+html, body{
+    cursor: none;
+}
+
 #background{
     background-size: cover;
     background-repeat: no-repeat;
@@ -6,8 +10,19 @@
     margin: 0px;
 }
 
-#background_GT{
-    background-color: #C18B89;
+#background_color{
+    background-color: #DAD6D4;
+}
+
+.ball_cursor {
+    position: absolute;
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
+    border-radius: 50%; /* Circle shape */
+    pointer-events: none; /* Allow clicks to go through */
+    transition: transform 0.1s ease;
+    z-index: 1000;
 }
 
 h1{
@@ -29,23 +44,25 @@ h3{
 }
 
 p{
-    color: white;
+    color: black;
     margin-top: 0;
     text-decoration: none;
-    margin-bottom: 10px;
-    font-size: 14px;
-    font-family: Helvetica, sans-serif;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
     margin-top: 0;
     text-decoration: none;
 }
 
 ul{
-    color: white;
+    color: black;
     margin-top: 0;
     text-decoration: none;
     margin-bottom: 10px;
@@ -55,13 +72,13 @@ ul{
 }
 
 .navbar_line{
-    background-color: white;
+    background-color: black;
     width: 93%;
     height: 2px;
     bottom: 90%;
     display: flex;
     justify-content: center;
-    border: white;
+    border: black;
     margin: 0;
     position: fixed;
     left: 3.5%;
@@ -104,7 +121,7 @@ ul{
 
 .description_box a{
     text-decoration: none;
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
@@ -113,7 +130,7 @@ ul{
     height: 650px;
     display: flex;
     margin-left: 80px;
-    margin-top: 105px;
+    margin-top: 100px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -153,7 +170,7 @@ ul{
 
 .h2_projects{
     margin: 0;
-    color: white;
+    color: black;
     font-family: "mr-eaves-modern", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -162,7 +179,7 @@ ul{
 
 .h3_projects{
     margin-top: 0;
-    color: white;
+    color: black;
     font-family: "mr-eaves-modern", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -210,7 +227,7 @@ ul{
 }
 
 .lists{
-    color: white;
+    color: black;
     font-family: Helvetica, sans-serif;
     margin-top: 0;
     margin-left: 15px;
@@ -230,49 +247,49 @@ ul{
     background: 0 0;
     cursor: pointer;
     position: fixed;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 20px;
     display: flex;
     bottom: 5%;
     height: 30px;
     width: 125px;
     right: 20%;
+    padding-bottom: 2px;
     align-items: center;
     justify-content: center;
-    padding-top: 7px;
     transition: all .3s;
     overflow: hidden;
 }
 
 .previous_button:hover{
-    background-color: white;
+    background-color: black;
 }
 
 .next_button{
     background: 0 0;
-    color: white;
+    color: black;
     cursor: pointer;
     position: fixed;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 20px;
     display: flex;
     bottom: 5%;
     height: 30px;
     width: 100px;
     right: 8%;
+    padding-bottom: 2px;
     align-items: center;
     justify-content: center;
-    padding-top: 7px;
     transition: all .3s;
     overflow: hidden;
 }
 
 .next_button:hover{
-    background-color: white;
+    background-color: black;
 }
 
 #buttons_text:hover{
-    color: #65595ac0;
+    color: white;
 }
 
 #domino_rules{
@@ -283,4 +300,41 @@ ul{
     width: 500px;
     flex-wrap: wrap;
     margin-left: 485px;
+}
+
+
+.navbar_projects{
+    backdrop-filter: blur(10px);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    z-index: 999;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    top: 0%;
+}
+
+.navbar_projects a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar_projects a:hover{
+    font-weight: bold;
+}
+
+.social_media svg{
+    color: black;
+    height: 30px;
+}
+
+.social_media svg:hover{
+    color: white;
 }

@@ -140,7 +140,6 @@ p{
 
 #after_projects{
     height: 300px;
-    width: 100vw;
 }
 
 #title_projects{
@@ -159,7 +158,6 @@ p{
 
 .wrapper {
     margin: 0 auto;
-    max-width: 100vw;
     backdrop-filter: blur(10px);
     padding-left: 80px;
     padding-right: 80px;
