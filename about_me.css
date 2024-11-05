@@ -1,0 +1,44 @@
+#about_me{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: "amandine", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 5vw;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 0;
+    color: white;
+}
+
+#contacts_about_me{
+    background-color: #65595a;
+    width: 100vw;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 12px;
+    bottom: 0;
+    font-family: "amandine", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#contacts_about_me a{
+    color: white;
+
+}
+
+#professional_weeks{
+    color: white;
+    text-decoration: none;
+}
