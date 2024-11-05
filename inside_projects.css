@@ -85,6 +85,7 @@ ul{
     margin: 0;
     position: fixed;
     left: 3.5%;
+    display: none;
 }
 
 .vertical_right_line{
@@ -357,6 +358,8 @@ ul{
     padding-top: 30px;
     padding-bottom: 30px;
     top: 0%;
+    background-color: #DAD6D4;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.256)) opacity(80%);
 }
 
 .navbar_projects a{
