@@ -208,7 +208,6 @@ p{
     backface-visibility: hidden;
     text-align: center;
     min-height: 325px;
-    height: auto;
     color: #fff;
     font-size: 1.5rem;
   }
@@ -324,12 +323,14 @@ p{
   
   .front .inner span {
     color: white;
-    font-family: "Montserrat";
+    font-family: "mr-eaves-modern", sans-serif;
     font-weight: 300;
+    font-style: normal;
   }
 
   .back .inner p{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 300;
+    font-style: normal;
   }
