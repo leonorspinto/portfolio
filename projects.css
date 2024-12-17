@@ -207,7 +207,7 @@ p{
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     text-align: center;
-    min-height: 325px;
+    height: 325px;
     color: #fff;
     font-size: 1.5rem;
   }
