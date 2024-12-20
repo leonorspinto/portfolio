@@ -15,12 +15,3 @@ document.addEventListener('mousemove', e => {
   cursor.style.transform = `translate3d(${x}px, ${y}px, 0)`;
   text.style.transform = `translate3d(${x + 20}px, ${y}px, 0)`; // Offset the text a bit
 });
-
-// Ensure the custom cursor stays visible while scrolling
-document.addEventListener('scroll', () => {
-  const x = window.pageXOffset + mouseX;
-  const y = window.pageYOffset + mouseY;
-  
-  cursor.style.transform = `translate3d(${x}px, ${y}px, 0)`;
-  text.style.transform = `translate3d(${x + 20}px, ${y}px, 0)`;
-});

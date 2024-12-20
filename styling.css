@@ -87,7 +87,9 @@ p{
 .navbar_links{
     backdrop-filter: blur(10px);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -206,9 +208,29 @@ html, body{
 .text {
     position: absolute;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 300;
     pointer-events: none; /* Allow clicks to go through */
     white-space: nowrap; /* Prevent text wrapping */
     transform: translate(-50%, -50%); /* Center text */
     z-index: 1000;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+#logo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+
 }
